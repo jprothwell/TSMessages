@@ -123,6 +123,7 @@
 		BD4923E5797BB417B254884A /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C60CFF5501D7865A31DBEB /* EXPUnsupportedObject.h */; };
 		BF72C6389C75AA977043052C /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = C01A2C0BFF99E3A7D98AEE30 /* EXPMatchers+raiseWithReason.h */; };
 		C2B726A135275EFB92958E97 /* Pods-Tests-HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FCB3A9D70975F7D8EC7585 /* Pods-Tests-HexColors-dummy.m */; };
+		C69193B824FCEB8F00CDA83B /* TSHexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = C69193B724FCEB8F00CDA83B /* TSHexColors.m */; };
 		C7E4953A4D8233A328121651 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC3CF424271C35510F37FD1 /* Pods-Tests-dummy.m */; };
 		C7E9BFBED202A60B683594FF /* Pods-TSMessages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC55B8BC67E0850B635F2F1B /* Pods-TSMessages-dummy.m */; };
 		C9F68CA1489E2F622AEF0CC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EA839EC130F0B23BE011F2 /* Foundation.framework */; };
@@ -396,6 +397,8 @@
 		C31B4A73A2F7C67D1E12539A /* Pods-Tests-FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		C49707BF02A1E6D2693EC3F3 /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "src/matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
 		C5476A427CF343DD9F7266E2 /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "src/matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
+		C69193B624FCEB8F00CDA83B /* TSHexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSHexColors.h; sourceTree = "<group>"; };
+		C69193B724FCEB8F00CDA83B /* TSHexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSHexColors.m; sourceTree = "<group>"; };
 		C72536401CB380F624D49D5B /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "src/matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
 		C72D494CB7891796959F4C3A /* Pods-Tests-TSMessages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-TSMessages-dummy.m"; path = "../Pods-Tests-TSMessages/Pods-Tests-TSMessages-dummy.m"; sourceTree = "<group>"; };
 		C79B7FDEFF46F26ADD567820 /* EXPBackwardCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBackwardCompatibility.h; path = src/EXPBackwardCompatibility.h; sourceTree = "<group>"; };
@@ -558,6 +561,8 @@
 				FE2304F910DF634247137BDD /* TSMessage.m */,
 				A2FCABAB97755E5E0837BC7E /* TSMessageView.h */,
 				0950707352B9F060E4A07F79 /* TSMessageView.m */,
+				C69193B624FCEB8F00CDA83B /* TSHexColors.h */,
+				C69193B724FCEB8F00CDA83B /* TSHexColors.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1259,6 +1264,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = AE9E83DC201EBFDCD45361C7;
@@ -1346,6 +1352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69193B824FCEB8F00CDA83B /* TSHexColors.m in Sources */,
 				C7E9BFBED202A60B683594FF /* Pods-TSMessages-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
