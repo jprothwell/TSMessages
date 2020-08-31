@@ -14,7 +14,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TSHXColor
+@interface TSHXColor:NSObject
 
 + (UIColor *)colorWithHexString:(NSString *)hexString;
 + (UIColor *)colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha;
